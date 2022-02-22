@@ -2,4 +2,5 @@
 
 pkgs.poetry2nix.mkPoetryApplication {
   projectDir = ./.;
+  python = pkgs.python310;
 }
